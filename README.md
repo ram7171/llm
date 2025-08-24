@@ -4,7 +4,7 @@
 ## Installation
 1. Create virtual environment
    ```bash
-   python -m venv venv
+   python3 -m venv venv
    ```
 2. Install dependencies
    ```bash
