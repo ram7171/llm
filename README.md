@@ -11,3 +11,19 @@
    ```bash
    pip install -r requirements.txt
    ```
+### to activate virtual environment
+```bash
+source venv/bin/activate
+```
+### to delete all pkg in venv
+```bash
+pip freeze | xargs pip uninstall -y
+```
+### to deactivate virtual environment
+```bashHi 
+deactivate
+```
+### to check active environment
+``` bash which python
+    echo $VIRTUAL_ENV
+```
